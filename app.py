@@ -85,9 +85,9 @@ with col2:
                     """
                     
                     with st.spinner("Gemini가 분석 중..."):
-                        # 최신 모델 'gemini-1.5-flash' 사용 (가장 안정적)
+                        # 최신 모델 'gemini-3-flash-preview"' 사용 (가장 안정적)
                         response = client.models.generate_content(
-                            model="gemini-1.5-flash", 
+                            model="gemini-3-flash-preview"", 
                             contents=prompt
                         )
                         st.markdown("---")
